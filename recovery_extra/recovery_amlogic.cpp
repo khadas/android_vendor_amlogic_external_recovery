@@ -401,7 +401,7 @@ void amlogic_init() {
     set_watermark_scale();
     pthread_t input_thread_;
     pthread_create(&input_thread_, nullptr, HdcpThreadLoop, nullptr);
-    sleep(1);
+    sleep(2);
 }
 
 void amlogic_get_args(std::vector<std::string>& args) {

@@ -84,6 +84,8 @@ Description:
 #define KEYUNIFY_ATTACH         _IO('f', 0x60)
 #define KEYUNIFY_GET_INFO     _IO('f', 0x62)
 
+#define RECOVERY_DISABLE_DTB_CHECK
+
 enum emmcPartition {
     USER = 0,
     BLK0BOOT0,
